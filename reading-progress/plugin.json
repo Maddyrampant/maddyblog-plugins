@@ -1,0 +1,10 @@
+{
+  "name": "reading-progress",
+  "version": "1.0.0",
+  "description": "Adds a sleek reading progress bar at the top of post pages and shows estimated reading time on post cards.",
+  "author": "maddyBlog",
+  "license": "MIT",
+  "permissions": [],
+  "hooks": [],
+  "settings": false
+}

@@ -1,6 +1,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/maddyBlog-ff69b4?style=for-the-badge" alt="maddyBlog"/>
-  <img src="https://img.shields.io/badge/7%20plugins-8b5cf6?style=for-the-badge" alt="7 Plugins"/>
+  <img src="https://img.shields.io/badge/12%20plugins-8b5cf6?style=for-the-badge" alt="7 Plugins"/>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js"/>
 </p>
@@ -9,7 +9,7 @@
 
 <p align="center">
   <b>Official plugin repository for <a href="https://github.com/Maddyrampant/maddyBlog">maddyBlog</a></b><br/>
-  <sub>7 production-ready plugins · Hook-based architecture · Admin UI · Fully type-safe</sub>
+  <sub>12 production-ready plugins · Hook-based architecture · Admin UI · Fully type-safe</sub>
 </p>
 
 <p align="center">
@@ -41,6 +41,11 @@
 | **related-posts** | AI-powered content recommendations via tag/category similarity | `READ_POST`, `USE_AI` | ✅ |
 | **custom-code** | Inject CSS, JS, and meta tags — no theme editing needed | — | ✅ |
 | **cache** | Full-page & fragment caching with TTL, auto-invalidation | `ACCESS_ANALYTICS` | ✅ |
+| **sitemap** | Advanced sitemap generator with configurable priority & changefreq | — | ✅ |
+| **content-scheduler** | Schedule posts for future automatic publishing | `READ_POST`, `WRITE_POST` | ✅ |
+| **contact-form** | Contact form with honeypot spam protection & email notifications | `SEND_EMAIL` | ✅ |
+| **reading-progress** | Reading progress bar on post pages | — | ❌ |
+| **popular-widget** | Top-read posts sidebar widget sorted by view count | `READ_POST` | ❌ |
 
 Every plugin adds its own **settings tab** in the admin panel and registers API routes under `/api/plugins/*`.
 

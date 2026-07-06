@@ -1,0 +1,10 @@
+{
+  "name": "content-scheduler",
+  "version": "1.0.0",
+  "description": "Schedule posts for automatic publishing — set a future date and the plugin publishes them at the right time.",
+  "author": "maddyBlog",
+  "license": "MIT",
+  "permissions": ["READ_POST", "WRITE_POST"],
+  "hooks": ["registerRoutes"],
+  "settings": true
+}

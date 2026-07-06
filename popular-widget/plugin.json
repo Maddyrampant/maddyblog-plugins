@@ -1,0 +1,10 @@
+{
+  "name": "popular-widget",
+  "version": "1.0.0",
+  "description": "Displays a top-read posts widget in the sidebar based on view count, helping readers discover your best content.",
+  "author": "maddyBlog",
+  "license": "MIT",
+  "permissions": ["READ_POST"],
+  "hooks": [],
+  "settings": false
+}

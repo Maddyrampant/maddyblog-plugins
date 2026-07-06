@@ -1,0 +1,10 @@
+{
+  "name": "sitemap",
+  "version": "1.0.0",
+  "description": "Advanced sitemap generator — configurable priority, changefreq, and automatic XML sitemap for all content types.",
+  "author": "maddyBlog",
+  "license": "MIT",
+  "permissions": [],
+  "hooks": ["registerRoutes"],
+  "settings": true
+}
