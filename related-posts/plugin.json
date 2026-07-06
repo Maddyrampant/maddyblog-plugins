@@ -1,0 +1,6 @@
+{
+    "name":  "related-posts",
+    "version":  "1.0.0",
+    "author":  "maddyBlog",
+    "description":  "AI-powered related posts using content similarity."
+}

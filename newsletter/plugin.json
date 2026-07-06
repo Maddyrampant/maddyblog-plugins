@@ -1,0 +1,6 @@
+{
+    "name":  "newsletter",
+    "version":  "1.0.0",
+    "author":  "maddyBlog",
+    "description":  "Email newsletter management - collect subscribers and send broadcasts."
+}
