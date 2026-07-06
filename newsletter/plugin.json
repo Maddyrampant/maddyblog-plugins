@@ -1,6 +1,10 @@
 {
-    "name":  "newsletter",
-    "version":  "1.0.0",
-    "author":  "maddyBlog",
-    "description":  "Email newsletter management - collect subscribers and send broadcasts."
+  "name": "newsletter",
+  "version": "1.0.0",
+  "description": "Email newsletter management — collect subscribers, send broadcast emails via SMTP, and track engagement from the admin panel.",
+  "author": "maddyBlog",
+  "license": "MIT",
+  "permissions": ["SEND_EMAIL", "READ_USER"],
+  "hooks": ["registerRoutes"],
+  "settings": true
 }

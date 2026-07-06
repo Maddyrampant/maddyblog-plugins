@@ -1,0 +1,10 @@
+{
+  "name": "cache",
+  "version": "1.0.0",
+  "description": "Full-page and fragment cache with TTL, automatic invalidation on post changes, and an admin dashboard widget showing hit rate.",
+  "author": "maddyBlog",
+  "license": "MIT",
+  "permissions": ["ACCESS_ANALYTICS"],
+  "hooks": ["beforeRenderPost", "afterPostSave", "afterPostDeleted", "registerRoutes"],
+  "settings": true
+}

@@ -1,6 +1,10 @@
 {
-    "name":  "social-login",
-    "version":  "1.0.0",
-    "author":  "maddyBlog",
-    "description":  "Social login via Google and GitHub."
+  "name": "social-login",
+  "version": "1.0.0",
+  "description": "Social login via Google and GitHub — configure OAuth credentials and let users log in with their social accounts.",
+  "author": "maddyBlog",
+  "license": "MIT",
+  "permissions": ["READ_USER", "WRITE_USER"],
+  "hooks": ["registerRoutes"],
+  "settings": true
 }

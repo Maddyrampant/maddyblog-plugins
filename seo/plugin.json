@@ -1,6 +1,10 @@
 {
-    "name":  "seo",
-    "version":  "1.0.0",
-    "author":  "maddyBlog",
-    "description":  "Advanced SEO management - configure meta tags, Open Graph, Twitter Cards, and structured data."
+  "name": "seo",
+  "version": "1.0.0",
+  "description": "Advanced SEO management — meta tags, Open Graph, Twitter Cards, JSON-LD structured data, breadcrumbs, and canonical URLs.",
+  "author": "maddyBlog",
+  "license": "MIT",
+  "permissions": ["WRITE_POST"],
+  "hooks": ["registerRoutes"],
+  "settings": true
 }

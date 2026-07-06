@@ -1,6 +1,10 @@
 {
-    "name":  "related-posts",
-    "version":  "1.0.0",
-    "author":  "maddyBlog",
-    "description":  "AI-powered related posts using content similarity."
+  "name": "related-posts",
+  "version": "1.0.0",
+  "description": "AI-powered related posts — uses content similarity (tag/category matching + optional AI embeddings) to recommend relevant articles.",
+  "author": "maddyBlog",
+  "license": "MIT",
+  "permissions": ["READ_POST", "USE_AI"],
+  "hooks": ["registerRoutes"],
+  "settings": true
 }

@@ -1,6 +1,10 @@
 {
-    "name":  "analytics-dashboard",
-    "version":  "1.0.0",
-    "author":  "maddyBlog",
-    "description":  "Enhanced analytics dashboard with visitor charts, top content, and real-time stats widgets."
+  "name": "analytics-dashboard",
+  "version": "1.0.0",
+  "description": "Enhanced analytics dashboard with visitor charts, top content, real-time stats, and a dashboard widget.",
+  "author": "maddyBlog",
+  "license": "MIT",
+  "permissions": ["ACCESS_ANALYTICS"],
+  "hooks": ["registerRoutes"],
+  "settings": true
 }

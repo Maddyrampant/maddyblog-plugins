@@ -1,6 +1,10 @@
 {
-    "name":  "custom-code",
-    "version":  "1.0.0",
-    "author":  "maddyBlog",
-    "description":  "Inject custom CSS, JavaScript, and meta tags into your site."
+  "name": "custom-code",
+  "version": "1.0.0",
+  "description": "Inject custom CSS, JavaScript, and meta tags into your site's head and footer sections — no theme editing required.",
+  "author": "maddyBlog",
+  "license": "MIT",
+  "permissions": [],
+  "hooks": ["registerRoutes"],
+  "settings": true
 }
